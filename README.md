@@ -1,12 +1,27 @@
-# Simple Network Tool
+Simple Network Tool
+A lightweight Windows utility to manage and check your network status using simple popup windows.
 
-This is a PowerShell script that helps you manage your network.
+File Descriptions
+ConnectionTool.exe: The main application. Just double-click this to run the tool. (No PowerShell window will appear).
 
-### Features:
-* Check if the internet is working.
-* Show your local IP address.
-* Clear (Flush) your DNS.
+ConnectionTool.ps1: The source code. Open this if you want to see how the script works.
 
-### How to use:
-1. Download `SimpleNetworkTool.ps1`.
-2. Right-click the file and choose **Run with PowerShell**.
+SimpleNetworkTool.ps1: An older or alternative version of the script.
+
+How to Use
+Run the App: Double-click ConnectionTool.exe.
+
+Make a Choice: A popup will ask for a number:
+
+1: Check if your internet is working.
+
+2: Show your computer's IP addresses.
+
+3: Clear (Flush) your DNS cache.
+
+Q: Close the tool.
+
+View Results: The tool will show you a success or error message in a new window.
+
+Note for Users
+To use the Flush DNS feature, please right-click ConnectionTool.exe and select "Run as Administrator".
